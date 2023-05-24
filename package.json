@@ -1,0 +1,29 @@
+{
+  "name": "seniour_course_vld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebMasterIT/SeniorFront_vld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebMasterIT/SeniorFront_vld/issues"
+  },
+  "homepage": "https://github.com/WebMasterIT/SeniorFront_vld#readme",
+  "private": true,
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "webpack": "^5.84.0",
+    "webpack-cli": "^5.1.1"
+  }
+}
